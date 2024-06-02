@@ -28,7 +28,7 @@ def fetch(driver):
         except NoSuchElementException:
             continue
 
-link = 'https://www.zapimoveis.com.br/venda/apartamentos/pa+belem/?__ab=exp-aa-test:control,novopos:new,super-high:new,olx:control,score-rkg:control&transacao=venda&onde=,Par%C3%A1,Bel%C3%A9m,,,,,city,BR%3EPara%3ENULL%3EBelem,-1.456343,-48.501299,&tipos=apartamento_residencial&pagina=55'
+link = 'https://www.zapimoveis.com.br/venda/apartamentos/pa+belem/?__ab=exp-aa-test:control,novopos:new,super-high:new,olx:control,score-rkg:control&transacao=venda&onde=,Par%C3%A1,Bel%C3%A9m,,,,,city,BR%3EPara%3ENULL%3EBelem,-1.456343,-48.501299,&tipos=apartamento_residencial&pagina=1'
 service = Service()
 options = webdriver.ChromeOptions()
 options.add_argument('--disable-notifications')
